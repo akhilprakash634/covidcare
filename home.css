@@ -1,0 +1,326 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(255, 255, 255);
+    border-color: whitesmoke;
+    overflow: hidden;
+    height: 50px;
+    border-color: 1px grey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+    position: relative;
+    overflow-x: hidden;
+
+  }
+  body{
+      background: #f0f0f0;
+      
+  }
+  
+  /* Style the links inside the navigation bar */
+  .covid{
+      float: left;
+      margin-left: 9px;
+      padding-top: 6px;
+      
+  }
+  .active {
+    float: left;
+    color: #4343f0;
+    text-align: center;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding: 14px px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .user{
+      float: right;
+      padding-left: 0px;
+      padding-right: 39px;
+      padding-top: 10px;
+     
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    
+    color: #4343f0;
+    box-sizing: inherit;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: white;
+    color: #4343f0;
+    margin-left: 1%;
+    
+  }
+  .sidebar {
+    height: 100%;
+    width: 223px;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 1;
+    margin-top: 3px;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: azure;
+    box-shadow: 1px 1px 5px grey;
+    line-height: 0px
+     
+    
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 7px 7px 6px 14px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #b8b8b8;
+    display: block;
+    height: 50px;
+    
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #0a0a0a;
+    background-color: #ffffff;
+    border-radius: 9px;
+    border: 2px solid #4343f0;
+    padding: 20px;
+    width: 170px;
+    height: 7px;
+    margin-left: 6px;
+ 
+  }
+ 
+  
+  
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  .newcase{
+      color: cornsilk;
+      font-weight: bold;
+     background: #4343f0;
+     margin-top: 60px;
+     margin-left: 12px;
+     box-sizing: border-box;
+     border-radius: 15px;
+     border-color: cornflowerblue;
+     width: 200px;
+     height: 35px;
+     align-items: center;
+  }
+  .row2{
+      align-items: center;
+      color: black;
+      margin-left: 270px;
+      font-size: 17px;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-top: 40px;
+      position: initial;
+  }
+  .tittle2{
+      color: #8a8888;
+      margin-top: -15px;
+      font-size: 10px;
+      letter-spacing: 2px;
+  }
+  .newcase{
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    box-shadow: 1px 1px 0px #4343f0;
+  }
+  .card{
+      margin-left: 270px;
+      color: black;
+      margin-right: 10px;
+  }
+  .row3{
+    align-items: center;
+    color: black;
+    margin-left: 270px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 40px;
+    
+  }
+  .tittle3{
+    color: #666666;
+    margin-left: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 40px;
+    text-decoration: none;
+    
+  }
+  .tittle4{
+    color: #666666;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+
+  }
+  .tittle3:hover{
+    color: #0a0a0a;
+    border-color: #4343f0;
+    border: #4343f0;
+    text-decoration: underline 2px #4343f0;
+    
+    
+     
+  }
+  
+  .tittle3:active{
+    text-decoration: underline 2px #4343f0;
+    color: black;
+    
+  }
+
+.tittle4:hover{
+    color: #0a0a0a;
+    border-color: #4343f0;
+    border: #4343f0;
+    text-decoration: underline 2px  #4343f0;   
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 3px 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    
+  }
+.card{
+    width: 240px;
+    height: 130px;
+    margin-top: 19px;
+    background: white;
+    border-radius: 3px;
+    
+    
+
+    
+}
+.tittle5{
+    margin-top: -20px;
+    font-family: sans-serif;    
+    font-weight: bold;
+    font-size: 10px;
+    color: grey;
+}
+.tittle6{
+    font-family: sans-serif;
+    padding-top: 1px;
+    
+}    
+
+.row4{
+    padding-top: px;
+    border-top: 1px solid #bbb;
+    word-spacing: 90px;
+}  
+.tittle7{
+    word-spacing: 0px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: grey;
+}
+.tittle8{
+    word-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+
+
+}
+.row5{  
+    word-spacing: 98px;
+    margin-top: 15px;
+
+}    
+
+
+.tittle9{
+    word-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    color: grey;
+}
+.tittle10{
+    word-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 900px;
+}
+.column2{
+   margin-left: 260px;
+   margin-top: -298px;
+
+}
+.column3{
+    margin-left: 260px;
+   margin-top: -298px;
+
+}
+.column4{
+    margin-left: 260px;
+    margin-top: -298px;
+
+}
+.numberCircle {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    padding: 7px;
+
+    background: rgb(207, 207, 207);
+    color: #4343f0;
+    text-align: center;
+    margin-left: 175px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    font: 15px Arial, sans-serif;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+    
